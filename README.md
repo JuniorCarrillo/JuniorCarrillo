@@ -40,7 +40,7 @@ Currently working with Nestjs and Reactjs.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
+<a href="https://dev.to/juniorcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="juniorcarrillo" height="30" width="40" /></a>
 <a href="https://twitter.com/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/14580648" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="14580648" height="30" width="40" /></a>
@@ -49,8 +49,8 @@ Currently working with Nestjs and Reactjs.
 <a href="https://dribbble.com/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
 <a href="https://www.behance.net/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
 <a href="https://medium.com/soyjrcarrillo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="soyjrcarrillo" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/https://www.youtube.com/channel/uciwxfli0q78rqlmogbyve-g" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/uciwxfli0q78rqlmogbyve-g" height="30" width="40" /></a>
-<a href="/https://www.juniorcarrillo.com/feed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.juniorcarrillo.com/feed" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/uciwxfli0q78rqlmogbyve-g" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/uciwxfli0q78rqlmogbyve-g" height="30" width="40" /></a>
+<a href="https://www.juniorcarrillo.com/blog/feed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.juniorcarrillo.com/feed" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
