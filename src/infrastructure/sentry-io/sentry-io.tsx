@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/react";
 import env from "../../env";
 
-Sentry.init({
+export default Sentry.init({
   dsn: env.SENTRY_IO_URI,
   integrations: [
     new Sentry.BrowserTracing({
