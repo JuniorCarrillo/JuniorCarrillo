@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import env from "../../environments";
+import {seo_params} from "../../@types/seo";
 
 export default function SEO(props: seo_params) {
   return (
