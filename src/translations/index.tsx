@@ -1,6 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { es, en } from './resources';
+import { es, en } from "./languages";
 import env from "../environments";
 
 export default i18n

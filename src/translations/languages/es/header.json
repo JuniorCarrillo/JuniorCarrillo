@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "about-me": "Sobre mí",
+    "streams": "Streams",
+    "blog": "Blog",
+    "contact": "Contácto"
+  },
+  "mega-menu": {
+    "development-mobile": {
+      "name": "Desarrollo móvil",
+      "description": "Desarrollo de apps móviles para Android & iOS"
+    },
+    "development-frontend": {
+      "name": "Desarrollo front end",
+      "description": "Desarrollo front end en Reactjs, Vuejs y Angular"
+    },
+    "development-backend": {
+      "name": "Desarrollo back end",
+      "description": "Desarrollo front end en Go, Python y Nestjs"
+    },
+    "agile": {
+      "name": "Metodologías agiles",
+      "description": "Manejo de metodologías agiles SCRUM y Kanban"
+    },
+    "marketing": {
+      "name": "Marketing digital",
+      "description": "Desarrollo de soluciones para campañas de marketing"
+    }
+  },
+  "call-to-actions": {
+    "advisory": "Asesoria",
+    "courses": "Cursos"
+  }
+}
