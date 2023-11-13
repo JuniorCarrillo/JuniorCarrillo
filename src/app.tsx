@@ -7,7 +7,7 @@ import "./infrastructure/react2tron";
 
 import reduxSlices from "./infrastructure/redux-store";
 
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/home-page";
 
 
 export default function App() {
