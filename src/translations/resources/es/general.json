@@ -1,0 +1,9 @@
+{
+  "hello": "Welcome to React and react-i18next",
+  "widgets": {
+    "recent-post": {
+      "title": "Artículos recientes",
+      "read-more": "Cargar más"
+    }
+  }
+}
