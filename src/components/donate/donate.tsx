@@ -1,4 +1,4 @@
-import env from "../../environments";
+import env from "../../env";
 
 export default function Donate() {
   return (

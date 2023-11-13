@@ -11,7 +11,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import env from "../../environments";
+import env from "../../env";
 import {useTranslation} from "react-i18next";
 import {brand} from "../../assets";
 

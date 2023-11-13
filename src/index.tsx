@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './style.css';
-import App from './app';
-import reportWebVitals from './reportWebVitals';
-import { ApiProvider } from './infrastructure/context/ApiProvider';
+import "./style.css";
+import "./translations";
+import "./infrastructure/react2tron";
+import "./infrastructure/sentry-io";
+
+import reportWebVitals from "./reportWebVitals";
+import { ApiProvider } from "./infrastructure/context/ApiProvider";
+import App from "./app";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

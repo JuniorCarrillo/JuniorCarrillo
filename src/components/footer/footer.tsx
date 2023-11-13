@@ -1,4 +1,4 @@
-import env from "../../environments";
+import env from "../../env";
 import SocialCounter from "../social-counter";
 
 export default function Footer() {

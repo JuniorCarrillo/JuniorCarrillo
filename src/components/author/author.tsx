@@ -1,6 +1,6 @@
 import {useTranslation} from "react-i18next";
 import {icons} from "../../assets";
-import env from "../../environments";
+import env from "../../env";
 
 export default function Author() {
   const { t } = useTranslation();

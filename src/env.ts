@@ -16,6 +16,8 @@ export default cleanEnv(process.env, {
   REACT_APP_WEBSITE_ARTICLE_PUBLISHED_TIME: str({default: ''}),
   REACT_APP_WEBSITE_ARTICLE_MODIFIED_TIME: str({default: ''}),
   REACT_APP_WEBSITE_AUTHOR_NAME: str({default: ''}),
+  // Sentry.io
+  SENTRY_IO_URI: str({default: ''}),
   // Facebook
   FACEBOOK_APP_ID: str({default: ''}),
   FACEBOOK_SITE_USERNAME: str({default: ''}),
