@@ -5,8 +5,6 @@ import env from "../../env";
 export default function Author() {
   const { t } = useTranslation();
 
-  console.log('DDFF', env)
-
   const social_networks = [
     {name: 'Facebook', link: env.REACT_APP_FACEBOOK_LINK, icon: icons.icFacebook},
     {name: 'Instagram', link: env.REACT_APP_INSTAGRAM_LINK, icon: icons.icInstagram},
