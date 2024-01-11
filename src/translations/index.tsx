@@ -3,6 +3,8 @@ import { initReactI18next } from "react-i18next";
 import { es, en } from "./languages";
 import env from "../env";
 
+console.log('OK', env.ADMIN_EMAIL)
+
 export default i18n
   .use(initReactI18next)
   .init({
