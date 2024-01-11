@@ -1,9 +1,8 @@
 import {cleanEnv, email, str} from 'envalid'
 
 function environment() {
-  console.log('OK/env', process.env);
   const dynamicEnv = cleanEnv(process.env, {
-    ADMIN_EMAIL: email({ default: 'admin@example.com' }),
+    ADMIN_EMAIL: email({ default: 'm@juniorcarrillo.com' }),
     // EMAIL_CONFIG_JSON: json({ desc: 'Additional email parameters' }),
     NODE_ENV: str({ choices: ['development', 'test', 'production', 'staging'] }),
     REACT_APP_WEBSITE_DOMAIN: str({default: ''}),
@@ -37,6 +36,10 @@ function environment() {
     REACT_APP_WHATSAPP_LINK: str({default: ''}),
     // Telegram
     REACT_APP_TELEGRAM_LINK: str({default: ''}),
+    // YOUTUBE
+    REACT_APP_YOUTUBE_LINK: str({default: ''}),
+    // BUY ME A COFFEE
+    REACT_APP_BUYMEACOFFEE_LINK: str({default: ''}),
   });
 
   return {

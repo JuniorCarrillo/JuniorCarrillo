@@ -30,7 +30,7 @@ export default function Author() {
         </small>
         <div className="flex gap-2 mt-3">
           {social_networks.map((it, i) => (
-            <a href={it.link} target="_blank" rel="noreferrer">
+            <a key={i} href={it.link} target="_blank" rel="noreferrer">
               <img className="w-5 h-5" src={it.icon} alt={it.name} />
             </a>
           ))}

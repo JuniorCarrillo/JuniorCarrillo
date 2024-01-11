@@ -11,9 +11,9 @@ import {
   UsersIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import env from "../../env";
 import {useTranslation} from "react-i18next";
 import {brand} from "../../assets";
+import env from "../../env";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ')
@@ -124,8 +124,8 @@ export default function Header() {
           </a>
         </Popover.Group>
         <Popover.Group className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="font-semibold leading-6 text-gray-300 hover:text-brand-accent transition duration-300 delay-75">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <a rel="noreferrer" href="/panel" className="font-semibold leading-6 text-gray-300 hover:text-brand-accent transition duration-300 delay-75">
+            {t('header:menu.logIn')} <span aria-hidden="true">&rarr;</span>
           </a>
         </Popover.Group>
       </nav>
@@ -210,11 +210,8 @@ export default function Header() {
                 </a>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
+                <a href="/panel" rel="noreferrer" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  {t('header:menu.logIn')}
                 </a>
               </div>
             </div>
