@@ -6,12 +6,12 @@ export default function Author() {
   const { t } = useTranslation();
 
   const social_networks = [
-    {name: 'Facebook', link: env.FACEBOOK_LINK, icon: icons.icFacebook},
-    {name: 'Instagram', link: env.INSTAGRAM_LINK, icon: icons.icInstagram},
-    {name: 'Twitter X', link: env.TWITTER_LINK, icon: icons.icTwitterX},
-    {name: 'GitHub', link: env.GITHUB_LINK, icon: icons.icGithub},
-    {name: 'WhatsApp', link: env.WHATSAPP_LINK, icon: icons.icWhatsapp},
-    {name: 'Telegram', link: env.TELEGRAM_LINK, icon: icons.icTelegram}
+    {name: 'Facebook', link: env.REACT_APP_FACEBOOK_LINK, icon: icons.icFacebook},
+    {name: 'Instagram', link: env.REACT_APP_INSTAGRAM_LINK, icon: icons.icInstagram},
+    {name: 'Twitter X', link: env.REACT_APP_TWITTER_LINK, icon: icons.icTwitterX},
+    {name: 'GitHub', link: env.REACT_APP_GITHUB_LINK, icon: icons.icGithub},
+    {name: 'WhatsApp', link: env.REACT_APP_WHATSAPP_LINK, icon: icons.icWhatsapp},
+    {name: 'Telegram', link: env.REACT_APP_TELEGRAM_LINK, icon: icons.icTelegram}
   ]
 
   return (
@@ -30,7 +30,7 @@ export default function Author() {
         </small>
         <div className="flex gap-2 mt-3">
           {social_networks.map((it, i) => (
-            <a href={it.link} target="_blank" rel="noreferrer">
+            <a key={i} href={it.link} target="_blank" rel="noreferrer">
               <img className="w-5 h-5" src={it.icon} alt={it.name} />
             </a>
           ))}
