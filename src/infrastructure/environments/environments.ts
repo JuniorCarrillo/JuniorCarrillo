@@ -1,6 +1,7 @@
 import {cleanEnv, email, str} from 'envalid'
 
 function environment() {
+  console.log('OK/env', process.env);
   const dynamicEnv = cleanEnv(process.env, {
     ADMIN_EMAIL: email({ default: 'm@juniorcarrillo.com' }),
     // EMAIL_CONFIG_JSON: json({ desc: 'Additional email parameters' }),
@@ -40,6 +41,14 @@ function environment() {
     REACT_APP_YOUTUBE_LINK: str({default: ''}),
     // BUY ME A COFFEE
     REACT_APP_BUYMEACOFFEE_LINK: str({default: ''}),
+    // FIREBASE
+    REACT_APP_FIREBASE_API_KEY: str({default: ''}),
+    REACT_APP_FIREBASE_AUTH_DOMAIN: str({default: ''}),
+    REACT_APP_FIREBASE_DATABASE_URL: str({default: ''}),
+    REACT_APP_FIREBASE_PROJECT_ID: str({default: ''}),
+    REACT_APP_FIREBASE_STORAGE_BUCKET: str({default: ''}),
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID: str({default: ''}),
+    REACT_APP_FIREBASE_APP_ID: str({default: ''}),
   });
 
   return {
