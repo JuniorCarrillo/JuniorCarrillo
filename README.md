@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **soyjrcarrillo@gmail.com**
 
-- 📄 Know about my experiences [CV](https://www.juniorcarrillo.com/cv)
+- 📄 Know about my experiences [CV](https://www.juniorcarrillo.com/cv.pdf)
 
 - ⚡ My hobbies **Ham Radio, Music, Movies & Outdoor walks.**
 
